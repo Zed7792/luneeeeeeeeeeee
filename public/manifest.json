@@ -1,0 +1,63 @@
+{
+  "name": "OILSERV Chemical Safety Management System",
+  "short_name": "OILSERV CSMS",
+  "description": "Enterprise Chemical Safety Management System with SDS tracking, GHS labeling, and inventory management",
+  "start_url": "/csms",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1e293b",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "SDS Library",
+      "short_name": "SDS",
+      "description": "Access SDS library",
+      "url": "/sds-library",
+      "icons": [
+        {
+          "src": "/images/sds-icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Labels Library",
+      "short_name": "Labels",
+      "description": "Access labels library",
+      "url": "/labels",
+      "icons": [
+        {
+          "src": "/images/labels-icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "QR Scanner",
+      "short_name": "Scanner",
+      "description": "Scan QR codes",
+      "url": "/qr-scanner",
+      "icons": [
+        {
+          "src": "/images/scanner-icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
